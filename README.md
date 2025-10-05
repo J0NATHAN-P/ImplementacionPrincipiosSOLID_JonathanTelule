@@ -12,16 +12,3 @@ Estructura:
 - `servicios`: servicios y gestores que respetan DIP.
 - `ui`: menú de consola en español.
 
-Cómo compilar y ejecutar (con Maven):
-```bash
-mvn package
-java -cp target/task-manager-solid-es-1.0-SNAPSHOT.jar com.kodigo.principiosSOLID.ui.Main
-```
-
-O sin Maven (javac):
-```bash
-javac -d out src/main/java/com/example/taskmgmt/**/*.java
-java -cp out com.kodigo.principiosSOLID.ui.Main
-```
-
-Documentación dentro de `docs/SOLID.md` y comentarios en cada clase explicando cómo se aplican los principios SOLID.
